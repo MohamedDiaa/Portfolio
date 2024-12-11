@@ -44,5 +44,12 @@ var cards: [Card] = [
         "Created educational iOS applications, prioritizing scalable architecture and engaging UI design.",
         "Conducted thorough unit testing to ensure app stability and performance."
     ]),
-    .init(company: "Icon Creations", date: "2011 - 2013", color: .orange, info: [])
+    .init(company: "Icon Creations", date: "2011 - 2013", color: .orange, info: [
+        "Developed and maintained iOS applications written in Objective-C, delivering high-quality, user-centric solutions.",
+        "Built and launched Nabd, an Arabic news aggregator app for iPhone and iPad, featuring a paid subscription model.",
+        "Created Hyundai Egypt, an app providing car owners with essential services and information.",
+        "Designed and implemented an internal-use app for Emaar, a leading real estate company, streamlining operations and improving efficiency.",
+        "Participated in Agile workflows, including daily stand-up meetings, to align on development priorities and ensure project milestones were met.",
+        "Managed app certifications and signing, ensuring smooth deployment and compliance with Apple's standards."
+    ])
 ]
