@@ -22,8 +22,8 @@ struct Card: Identifiable {
 }
 
 var cards: [Card] = [
-    .init(company: "Qvik AB", date: "2022 - 2024", color: .blue),
-    .init(company: "Svea Ekonomi", date: "2017 - 2022", color: .indigo),
-    .init(company: "KlickData AB", date: "2013 - 2017", color: .pink),
-    .init(company: "Icon Creations", date: "2011 - 2013", color: .black),
+    .init(company: "Qvik AB", date: "2022 - 2024", color: .indigo),
+    .init(company: "Svea Ekonomi", date: "2017 - 2022", color: .pink),
+    .init(company: "KlickData AB", date: "2013 - 2017", color: .cyan),
+    .init(company: "Icon Creations", date: "2011 - 2013", color: .orange),
 ]
