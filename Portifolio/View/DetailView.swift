@@ -12,27 +12,15 @@ struct DetailView: View {
 
         ScrollView(.vertical) {
             LazyVStack(spacing: 12) {
-                ForEach(1...20, id: \.self) { _ in
+                ForEach(selectedCard.info, id: \.self) { text in
                     HStack(spacing: 15) {
                         Circle()
-                            .fill(.gray.tertiary)
-                            .frame(width: 50, height: 50)
-                        
-                        VStack(alignment: .leading, spacing: 6) {
-                            RoundedRectangle(cornerRadius: 2)
-                                .fill(.gray.tertiary)
-                                .frame(height: 8)
-                            
-                            RoundedRectangle(cornerRadius: 2)
-                                .fill(.gray.tertiary)
-                                .frame(height: 8)
-                                .padding(.trailing, 100)
-                            
-                            RoundedRectangle(cornerRadius: 2)
-                                .fill(.gray.tertiary)
-                                .frame(width: 50, height: 8)
-                        }
+                            .fill(.black)
+                            .frame(width: 10, height: 10)
+                        Text(text)
+                            .font(.title3)
                     }
+                    .frame(maxWidth: .infinity)
                     .padding(15)
                     .background(.background.shadow(.drop(color: .black.opacity(0.06), radius: 5, x: 5, y: 5)), in: .rect(cornerRadius: 10))
                 }
